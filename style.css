@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 100vh;
+}
+
+.container {
+    border: 1px green solid;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+}
+
+.display {
+    height: 90px;
+    border: 1px blue solid;
+    margin-bottom: 10px;
+}
+
+.calc-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px red solid;
+    height: 100%;
+}
+
+.calc-container button {
+
+
+    width: calc(100% / 3);
+
+}
+
+.right-buttons {
+    border: 1px green solid;
+    height: 100%;
+}
